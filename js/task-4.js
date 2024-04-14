@@ -4,19 +4,19 @@ function getShippingCost(country) {
   const Australia = 170;
   const Jamaica = 120;
   switch (country) {
-    case 'China': // if (x === 'value1')
+    case 'China':
       return `Shipping to ${country} will cost ${China} credits`;
       break;
 
-    case 'Chile': // if (x === 'value2')
+    case 'Chile':
       return `Shipping to ${country} will cost ${Chile} credits`;
       break;
 
-    case 'Australia': // if (x === 'value2')
+    case 'Australia':
       return `Shipping to ${country} will cost ${Australia} credits`;
       break;
 
-    case 'Jamaica': // if (x === 'value2')
+    case 'Jamaica':
       return `Shipping to ${country} will cost ${Jamaica} credits`;
       break;
 
